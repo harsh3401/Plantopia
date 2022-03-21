@@ -1,2 +1,2 @@
-# mini_project
+# GIS mini_project
 A ice cover detection application
