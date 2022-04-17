@@ -1,2 +1,2 @@
 # mini_project
-A ice cover detection application
+A Vegetation cover detection & analysis application via the google earth engine python API. 
