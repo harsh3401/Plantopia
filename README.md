@@ -99,17 +99,19 @@ A step by step series of examples that tell you how to get a development env run
 
 ## :pencil2: Authors <a name="authors"></a>
 
-- [Ishan Kulkarni](https://www.linkedin.com/in/anurag-g-a01531198)
-- [Anurag Ghosh](https://www.linkedin.com/in/kulkarniishan)
-- [Aakshad Thole](https://www.linkedin.com/in/akshad-thole-b756621b2)
+- [Anurag Ghosh](https://www.linkedin.com/in/anurag-g-a01531198)
+- [Harsh Jain]()
+- [Samved Joshi]()
+- [Ishan Kulkarni](https://www.linkedin.com/in/kulkarniishan)
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-built-using-a-name--built_usinga)
 
 ## :brain: Contribution over Time <a name="contribution"></a>
 
 <div align="center">
- <a href="https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=kulkarniishan/PWA-NFA-to-DFA-converter">
-  <img src="https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=kulkarniishan/PWA-NFA-to-DFA-converter" alt="Contribution image"/>
+ <a href="https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=harsh3401/mini_project">
+  <img src="https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=harsh3401/mini_project" alt="Contribution image"/>
  </a>
 </div>
 
