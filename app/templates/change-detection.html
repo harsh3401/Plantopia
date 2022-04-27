@@ -1,9 +1,12 @@
-{% extends "base.html" %}
-{% set active_page = "change-detection" %}
-{% block content %}
+{% extends "base.html" %} {% set active_page = "change-detection" %} {% block
+content %}
 
 <p class="important">
-
-  <iframe style="width:100%;"height=1000 src="http://localhost:8866/voila/render/backend/notebooks/change.ipynb" title="Notebook"></iframe>
+  <iframe
+    style="width: 100%"
+    height="1000"
+    src="http://localhost:8866/voila/render/backend/notebooks/change.ipynb"
+    title="Notebook"
+  ></iframe>
 </p>
 {% endblock %}
