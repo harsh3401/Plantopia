@@ -1,10 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
+    <!-- Meta tags for adding metadata-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="application-name" content="Plantopia">
+    <meta name="author" content="Anurag Ghosh, Harsh Jain, Samved Joshi, Ishan Kulkarni">
+    <meta name="description" content="Website that contains maps and GIS data for Green Cover Detection">
+    <meta name="keywords" content="GIS, Vegetation, NDVI, green cover, plant life, land cover">
+    <!-- Facebook og meta tag-->
+    <meta name="og:site_name" content="Plantopia">
+    <meta name="og:locale" content="en_IN">
+    <meta
+      property="og:url"
+      content=""
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Home | Plantopia" />
+    <meta
+      property="og:description"
+      content="Website that contains maps and GIS data for Green Cover Detection"
+    />
+    <meta
+      property="og:image"
+      content="{{ url_for('static',filename='images/forest.png')}}"
+    />
+    <!-- Twitter cards-->
+    <meta name="twitter:card" content="Plantopia Website" />
+    <meta name="twitter:site" content="@Plantopia" />
+    <meta name="twitter:creator" content="@AnuragG36973328" />
     <title>Plantopia</title>
     <link rel="shortcut icon" href="{{ url_for('static',filename='images/forest.png')}}">
     <script src="https://cdn.tailwindcss.com"></script>
