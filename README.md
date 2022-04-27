@@ -113,10 +113,12 @@ A step by step series of examples that tell you how to get a development env run
  <a href="https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=harsh3401/mini_project">
   <img src="https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=harsh3401/mini_project" alt="Contribution image"/>
  </a>
-</div>
-<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+ <br/>
+ <a href = "https://contrib.rocks/image?repo=harsh3401/mini_project">
   <img src = "https://contrib.rocks/image?repo=harsh3401/mini_project"/>
 </a>
+</div>
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
 
