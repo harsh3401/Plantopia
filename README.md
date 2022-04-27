@@ -1,4 +1,4 @@
-<h1 align="center">Plantopia - A realtime vegetation cover monitoring Application</h1>
+<h1 align="center">Plantopia - A vegetation cover monitoring Application</h1>
 
 <p align="center">
 <a href="#"><img width=200px src="app/static/images/forest.png"  alt="Project logo"/></a></a>
