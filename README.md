@@ -104,7 +104,6 @@ A step by step series of examples that tell you how to get a development env run
 - [Samved Joshi]()
 - [Ishan Kulkarni](https://www.linkedin.com/in/kulkarniishan)
 
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-built-using-a-name--built_usinga)
 
 ## :brain: Contribution over Time <a name="contribution"></a>
@@ -119,10 +118,9 @@ A step by step series of examples that tell you how to get a development env run
 </a>
 </div>
 
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
 
-## 	:weight_lifting: Performance of Web App <a name = "performance"></a>
+## :weight_lifting: Performance of Web App <a name = "performance"></a>
 
 <div align="center">
 <br/>

@@ -1,9 +1,10 @@
-{% extends "base.html" %}
-{% set active_page = "ndvi-timelapse" %}
-{% block content %}
+{% extends "base.html" %} {% set active_page = "ndvi-timelapse" %} {% block
+content %}
 <h1>Index</h1>
-<p class="important">
-  Welcome on my awesome Ndvi Timelapse Page.
-</p>
-<iframe style="width:100%; height:100%;" src="http://localhost:8866/voila/render/backend/notebooks/NDVI_timelapse.ipynb" title="Notebook"></iframe>
+<p class="important">Welcome on my awesome Ndvi Timelapse Page.</p>
+<iframe
+  style="width: 100%; height: 100%"
+  src="http://localhost:8866/voila/render/backend/notebooks/NDVI_timelapse.ipynb"
+  title="Notebook"
+></iframe>
 {% endblock %}
