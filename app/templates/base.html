@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
+
 <head>
     <!-- Meta tags for adding metadata-->
     <meta charset="UTF-8">
@@ -12,20 +13,11 @@
     <!-- Facebook og meta tag-->
     <meta name="og:site_name" content="Plantopia">
     <meta name="og:locale" content="en_IN">
-    <meta
-      property="og:url"
-      content=""
-    />
+    <meta property="og:url" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Home | Plantopia" />
-    <meta
-      property="og:description"
-      content="Website that contains maps and GIS data for Green Cover Detection"
-    />
-    <meta
-      property="og:image"
-      content="{{ url_for('static',filename='images/forest.png')}}"
-    />
+    <meta property="og:description" content="Website that contains maps and GIS data for Green Cover Detection" />
+    <meta property="og:image" content="{{ url_for('static',filename='images/forest.png')}}" />
     <!-- Twitter cards-->
     <meta name="twitter:card" content="Plantopia Website" />
     <meta name="twitter:site" content="@Plantopia" />
@@ -37,16 +29,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.3/dist/flowbite.min.css" />
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/c3e755a1f3.js" crossorigin="anonymous"></script>
     <style>
         @media (min-width: 640px) {
             table {
-            display: inline-table !important;
+                display: inline-table !important;
             }
 
             thead tr:not(:first-child) {
-            display: none;
+                display: none;
             }
         }
 
@@ -57,27 +50,7 @@
         th:not(:last-child) {
             border-bottom: 2px solid rgba(0, 0, 0, 0.1);
         }
-        
-        #heart{
-            color: rgb(221, 29, 55);
-            text-shadow: 0 0 3px rgb(197, 19, 19), 0 0 5px rgb(189, 31, 31);
-            animation: beat 1s linear infinite;;
-        }
 
-        @keyframes beat{
-            0%{
-                transform: scale(0.5,0.5);
-                opacity: 0;
-            }
-            50%{
-                transform: scale(1,1);
-                opacity: .5;
-            }
-            100%{
-                transform: scale(1.2,1.2);
-                opacity: 1;
-            }
-        }
     </style>
 </head>
 
@@ -153,13 +126,13 @@
 
 <footer class="text-center bg-gray-900 text-white">
     <div class="pt-2">
-        Made with <span id="heart">❤️</span> by
+        Made with <span>❤️</span> by
         <a href="https://github.com/kulkarniishan" class="hover:text-gray-400">Ishan Kulkarni</a>,
         <a href="https://github.com/Anu26092002" class="hover:text-gray-400">Anurag Ghosh</a>,
         <a href="https://github.com/harsh3401" class="hover:text-gray-400">Harsh Jain</a> &
         <a href="https://github.com/samvedjosh" class="hover:text-gray-400">Samved Joshi</a>
-    </div> 
-    <p class="p-2">Plantopia © 2021 Copyright: All rights Reserved</p> 
+    </div>
+    <p class="p-2">Plantopia © 2021 Copyright: All rights Reserved</p>
     <div class="col-span-12 md:col-span-6 pb-2">
         <a href="https://github.com/harsh3401/mini_project" target="_blank" type="button"
             class="rounded-xl text-white leading-normal border uppercase hover:bg-white hover:bg-opacity-5 h-auto w-40 mx-auto grid grid-flow-col p-2 justify-around">
@@ -183,5 +156,6 @@
     console.log(menu);
     const toggle = () => menu.classList.toggle("hidden");
 </script>
+<script src="https://unpkg.com/flowbite@1.4.3/dist/flowbite.js"></script>
 
 </html>
