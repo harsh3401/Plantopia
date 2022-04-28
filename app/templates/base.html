@@ -40,6 +40,24 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/c3e755a1f3.js" crossorigin="anonymous"></script>
     <style>
+        @media (min-width: 640px) {
+            table {
+            display: inline-table !important;
+            }
+
+            thead tr:not(:first-child) {
+            display: none;
+            }
+        }
+
+        td:not(:last-child) {
+            border-bottom: 0;
+        }
+
+        th:not(:last-child) {
+            border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+        }
+        
         #heart{
             color: rgb(221, 29, 55);
             text-shadow: 0 0 3px rgb(197, 19, 19), 0 0 5px rgb(189, 31, 31);
