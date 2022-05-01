@@ -206,7 +206,7 @@ A step by step series of examples that tell you how to get a development env run
   <img src = "https://contrib.rocks/image?repo=harsh3401/mini_project"/>
 </a>
 </div>
-
+<br/>
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
 
 # :weight_lifting: Performance of Web App <a name = "performance"></a>
