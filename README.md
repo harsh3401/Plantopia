@@ -67,22 +67,22 @@ Constraints:
 The Functional Requirements are as followed:
 
 
-i)	To provide a platform for monitoring of land vegetation cover and to present in a visually intuitive form.
-ii)	To implement the best method for the detection of changes in the vegetation cover in a particular area.
-iii)	The application should provide a Timelapse of the vegetation cover over the selected area in different periods of years with the ability to export and download the timelapse in a GIF format.
-iv)	To implement and compare multiple classification methodologies and to get the best outcomes from the same by computing the results from the classification and show the results with proper legends on the Map interface.
-v)	User interface provided must be a responsive web interface that is displayed in an easy-to-interpret methodically laid out manner.
+i.	To provide a platform for monitoring of land vegetation cover and to present in a visually intuitive form.
+ii.	To implement the best method for the detection of changes in the vegetation cover in a particular area.
+iii.	The application should provide a Timelapse of the vegetation cover over the selected area in different periods of years with the ability to export and download the timelapse in a GIF format.
+iv.	To implement and compare multiple classification methodologies and to get the best outcomes from the same by computing the results from the classification and show the results with proper legends on the Map interface.
+v.	User interface provided must be a responsive web interface that is displayed in an easy-to-interpret methodically laid out manner.
 
 
 The Non-Functional Requirements are as followed:		
 
 
-i)	To build a secure API, such that only authorized applications/users can access it by setting appropriate CORS (Cross-Origin Resource Sharing) configuration. 
-ii)	To build an API having a fast response time (subject to complexity of model and text input) so the software will work for all use cases, provided the input is in plain text. 
-iii)	To design a user-friendly interface, such that the end users will be able to accurately analyze, comprehend and summarize the text provided. 
-iv)	To build a system that will be available 24/7 to the users with an internet connection.
-v)	The software should be deployable on any server and should be accessible from any browser.
-vi)	The output should be reliable with good accuracy scores. 
+i.	To build a secure API, such that only authorized applications/users can access it by setting appropriate CORS (Cross-Origin Resource Sharing) configuration. 
+ii.	To build an API having a fast response time (subject to complexity of model and text input) so the software will work for all use cases, provided the input is in plain text. 
+iii.	To design a user-friendly interface, such that the end users will be able to accurately analyze, comprehend and summarize the text provided. 
+iv.	To build a system that will be available 24/7 to the users with an internet connection.
+v.	The software should be deployable on any server and should be accessible from any browser.
+vi.	The output should be reliable with good accuracy scores. 
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-getting-started-a-name--getting_starteda)
