@@ -87,19 +87,19 @@ The workflow diagrams are as followed:
 <br/>
 <ul>
     <li>
-        <h5> Classification Flow Diagram </h5>
+        <h4> Classification Flow Diagram </h4>
         </br>
         <img src="./AboutProject/Classification%20Flow%20Diagram.svg" alt="Classification Flow Diagram" width="auto"/>
     </li>
     <br/>
    <li>
-        <h5> Change Detection Flow Diagram </h5>
+        <h4> Change Detection Flow Diagram </h4>
         </br>
         <img src="./AboutProject/Change%20Detection%20Flow%20Diagram.svg" alt="Change Detection Flow Diagram" width="auto"/>
     </li>
     <br/>
     <li>
-        <h5> Timelapse Generation Flow Diagram </h5>
+        <h4> Timelapse Generation Flow Diagram </h4>
         </br>
         <img src="./AboutProject/Timelapse%20generation%20Flow%20Diagram.svg" alt="Timelapse Generation Flow Diagram" width="auto"/>
     </li>
@@ -207,6 +207,8 @@ A step by step series of examples that tell you how to get a development env run
 </a>
 </div>
 <br/>
+
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
 
 # :weight_lifting: Performance of Web App <a name = "performance"></a>
