@@ -80,7 +80,6 @@ The web app provides 4 pages each designated for a specific task:
 
 ## 1.4 Application workflow Diagrams
 
-
 The workflow diagrams are as followed:
 
 <div align="center">
@@ -105,7 +104,6 @@ The workflow diagrams are as followed:
     </li>
 </ul>
 </div>
-
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-getting-started-a-name--getting_starteda)
 
@@ -207,7 +205,6 @@ A step by step series of examples that tell you how to get a development env run
 </a>
 </div>
 <br/>
-
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
 
