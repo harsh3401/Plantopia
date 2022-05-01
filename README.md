@@ -78,6 +78,35 @@ The web app provides 4 pages each designated for a specific task:
 <li>	The output should be reliable with good accuracy scores. </li>
 </ol>
 
+## 1.4 Application workflow Diagrams
+
+
+The workflow diagrams are as followed:
+
+<div align="center">
+<br/>
+<ul>
+    <li>
+        <h5> Classification Flow Diagram </h5>
+        </br>
+        <img src="./AboutProject/Classification%20Flow%20Diagram.svg" alt="Classification Flow Diagram" width="auto"/>
+    </li>
+    <br/>
+   <li>
+        <h5> Change Detection Flow Diagram </h5>
+        </br>
+        <img src="./AboutProject/Change%20Detection%20Flow%20Diagram.svg" alt="Change Detection Flow Diagram" width="auto"/>
+    </li>
+    <br/>
+    <li>
+        <h5> Timelapse Generation Flow Diagram </h5>
+        </br>
+        <img src="./AboutProject/Timelapse%20generation%20Flow%20Diagram.svg" alt="Timelapse Generation Flow Diagram" width="auto"/>
+    </li>
+</ul>
+</div>
+
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-getting-started-a-name--getting_starteda)
 
 # 🏁 Getting Started <a name = "getting_started"></a>
