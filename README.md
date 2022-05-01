@@ -115,7 +115,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- [React](https://reactjs.org/)
+- [Python](https://www.python.org/)
+- [Flask](https://reactjs.org/)
+- [Voila](https://github.com/voila-dashboards/voila)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Tailwind CSS](https://tailwindcss.com/)
 
 ### Installing
@@ -137,14 +140,18 @@ A step by step series of examples that tell you how to get a development env run
 
 # :hammer_and_wrench: Built Using <a name = "built_using"></a>
 
-- [React](https://reactjs.org/) - Web Framework
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Webpage
 - [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
-- [GraphViz API](https://github.com/DomParfitt/graphviz-react#readme) - Library for visualization of the DFA
-- [quickchart.io](https://quickchart.io/documentation/graphviz-api/) - API for visualization
+- [Python](https://www.python.org/) - Backend
+- [Flask](https://reactjs.org/) - Backend
+- [Google Earth Engine](https://earthengine.google.com/) - GIS Tool
+- [Jupyter Notebook](https://jupyter.org/) - For different services
+- [Voila](https://github.com/voila-dashboards/voila) - Convertion of Jupyter notebook to web application
+- [Heroku](https://www.heroku.com/)- Deployment
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
 
-# 📦 Packages Used <a name = "packages"></a>
+# 📦 Packages and Libraries Used <a name = "packages"></a>
 
 <div align="center">
  
@@ -191,6 +198,9 @@ A step by step series of examples that tell you how to get a development env run
  <a href="https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=harsh3401/mini_project">
   <img src="https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=harsh3401/mini_project" alt="Contribution image"/>
  </a>
+ <br/>
+ <br/>
+ <h5>Contributors</h5>
  <br/>
  <a href = "https://contrib.rocks/image?repo=harsh3401/mini_project">
   <img src = "https://contrib.rocks/image?repo=harsh3401/mini_project"/>
