@@ -21,48 +21,41 @@
 
 # 🧐 About <a name = "about"></a>
 
- **Vegetation cover** defines **the percentage of soil** which is **covered by trees and plants**. Vegetation cover plays **very important role** on **protecting the soil surface** from raindrop splashing, increasing soil organic matter, soil aggregate stability, water holding capacity, hydraulic conductivity, retarding and reducing surface water runoff, etc. In a wide range of environments, both water run-off and soil sediment loss decrease exponentially as the percentage of vegetation cover increases. (Elwell and Stocking, 1976; Lee and Skogerboe 1985, Francis and Thornes 1990). 
+**Vegetation cover** defines **the percentage of soil** which is **covered by trees and plants**. Vegetation cover plays **very important role** on **protecting the soil surface** from raindrop splashing, increasing soil organic matter, soil aggregate stability, water holding capacity, hydraulic conductivity, retarding and reducing surface water runoff, etc. In a wide range of environments, both water run-off and soil sediment loss decrease exponentially as the percentage of vegetation cover increases. (Elwell and Stocking, 1976; Lee and Skogerboe 1985, Francis and Thornes 1990).
 
+A vegetation cover of **45-50%** is considered a **critical value** since above this value soils are adequately **protected** from **raindrop impact** and **soil erosion** is significantly **reduced**. This threshold may be modified for different types of vegetation, rain intensity and land attributes. In the case of **poor plant cover**, the **erosion processes** may be very **active** and **the regeneration of natural vegetation** may be **irreversible**. Vegetation cover can be measured in the field by assessing the percentage of the ground that it is covered by the existing annual or perennial vegetation. Aerial photographs or satellite images can also be used for measuring vegetation cover of extensive areas.
 
- A vegetation cover of **45-50%** is considered a **critical value** since above this value soils are adequately **protected** from **raindrop impact** and **soil erosion** is significantly **reduced**. This threshold may be modified for different types of vegetation, rain intensity and land attributes. In the case of **poor plant cover**, the **erosion processes** may be very **active** and **the regeneration of natural vegetation** may be **irreversible**. Vegetation cover can be measured in the field by assessing the percentage of the ground that it is covered by the existing annual or perennial vegetation. Aerial photographs or satellite images can also be used for measuring vegetation cover of extensive areas.
-
-
-Vegetation cover is **key factor on land degradation**. Reduction in the perennial cover is regarded as an important indicator of the onset of desertification. Soil erosion and degradation begins only when a substantial portion of the land's surface is denuded of vegetation, then it proceeds with an accelerated mode, that cannot be arrested by land resistance alone. Vegetation cover increases **with increasing soil depth and thus decreasing longevity of drought**. In the soil depth class of 15-30 cm, the vegetation cover class of 25-50% had the maximum frequency of appearance (93%) in the semi-arid zone, whereas areas with soils having the same soil depth class had a higher vegetation cover with a 64% maximum frequency of appearance of the cover class 75-90% cover in the dry sub-humid zone. 
-
+Vegetation cover is **key factor on land degradation**. Reduction in the perennial cover is regarded as an important indicator of the onset of desertification. Soil erosion and degradation begins only when a substantial portion of the land's surface is denuded of vegetation, then it proceeds with an accelerated mode, that cannot be arrested by land resistance alone. Vegetation cover increases **with increasing soil depth and thus decreasing longevity of drought**. In the soil depth class of 15-30 cm, the vegetation cover class of 25-50% had the maximum frequency of appearance (93%) in the semi-arid zone, whereas areas with soils having the same soil depth class had a higher vegetation cover with a 64% maximum frequency of appearance of the cover class 75-90% cover in the dry sub-humid zone.
 
 This project will help in **automated monitoring** the vegetation cover in a particular area by using **GIS techniques**, thus giving insights for **future planning of land resources**. This project discusses the **importance of land vegetation cover** and **its impact on the environment**, it also discusses **the real-time monitoring of the vegetation cover** and its implementation and provides components **to generate timelapse GIFs** and **classify land cover for better assessment** of the land cover. We have also implemented change detection features to get an idea of the vegetation change over the years for further analysis.
-
 
 <br/>
 <a href="#">Click here to view the website</a>
 </a>
 <br/>
 
-## 1.1	Problem Definition
+## 1.1 Problem Definition
 
 To develop a **GIS based application** that can **monitor and display** the **changes in the vegetation cover** **for a particular area** and provide the **timelapse showing the change in the area with respect to the change in the NDVI over a particular time period**. The application should be **easily accessible** and should clearly give an **insight on the change**.
 
-## 1.2	Scope of Project
+## 1.2 Scope of Project
 
-The project outcome is a web application that will provide a platform to visualize change, monitor NDVI area for a specific threshold and provide timelapse generation features. In addition to these primary features classification of land cover based on multiple methods specifically for the Mumbai and Thane districts will provide an analytical viewpoint for landcover computed via ML algorithms.
-
+The project outcome is a **web application** that will provide a **platform to visualize change, monitor NDVI area for a specific threshold and provide timelapse generation features**. In addition to these primary features classification of land cover based on multiple methods specifically for the **Mumbai** and **Thane** districts will provide an analytical viewpoint for landcover computed via ML algorithms.
 
 The web app provides 4 pages each designated for a specific task:
 
-1.	Homepage: Here information about the dataset used, methodologies applied and the references are provided in addition to general data about vegetation detection via GIS systems.
-2.	Classification Page: This page provides the user options to classify land cover based on multiple methods. The first method includes using the MODIS dataset to divide the landcover into multiple classes and rendering the results in an interactable map. The second method is a more complex one where a manually selected dataset is created to get an idea of the various classes and an ML based classification algorithm is used.
-3.	Timelapse Page: This page provides the user with the ability to generate vegetation change timelapses via manually selecting a region and a time period. This timelapse image will be added to the map and can be exported to get the final result as a GIF image that can easily be shared.
-4.	Change Detection Page: This page provides the user the ability to generate spectral change maps that will be visualized instantly post selecting the start and end year for change detection. The generated spectral map will be added to the map itself.
+1. **Homepage**: Here information about the **dataset** used, **methodologies** applied and the **references** are provided in addition to **general data about vegetation detection** via GIS systems.
+2. **Classification Page**: This page provides the user **options to classify land cover** based on **multiple methods**. The **first method** includes using the **MODIS dataset** to divide the **landcover into multiple classes** and rendering the results in an **interactable map**. The **second method** is a more complex one where a **manually selected dataset** is created to get an **idea** of the various classes and an ML based classification algorithm is used.
+3. **Timelapse Page**: This page provides the user with the ability to **generate vegetation change timelapses via manually selecting a region and a time period**. This timelapse image will be **added to the map** and can be exported to get the final result as a **GIF image** that can easily be shared.
+4. **Change Detection Page**: This page provides the user the ability to **generate spectral change maps** that will be **visualized instantly post selecting the start and end year** for change detection. **The generated spectral map will be added to the map itself**.
 
 ### Constraints:
 
+1. The landcover classification has been computed by two different methods, one is by directly using the **publicly available MODIS dataset** and the other by **manually, generating feature collections** and using that as the training data for building the model. Due to the involvement of this **manual effort**, change detection can only be performed on **selective regions** for now.
+2. Change detection is being done by **geographically subtracting** the **two different samples of a region at two different time phases**. This can only give a mere idea regarding the areas where the change was observed and **can’t** necessarily provide a **detailed summary** of the specific affected areas.
+3. The timelapse is a **visual representation** of the **change in vegetation** for a clipped region over a **specified period of time**. It needs **parameters** like **start year, end year, end month**, and the **actual region** that we want the program to present the change in the form of a GIF. Thus, this feature takes a **certain magnitude of computation time** based on these parameters. Possibilities are that the program might take **incredibly high computation time** for selected regions that are **too huge** or a **time interval** that is very lengthy.
 
-1.	The landcover classification has been computed by two different methods, one is by directly using the publicly available MODIS dataset and the other by manually, generating feature collections and using that as the training data for building the model. Due to the involvement of this manual effort, change detection can only be performed on selective regions for now.
-2.	Change detection is being done by geographically subtracting the two different samples of a region at two different time phases. This can only give a mere idea regarding the areas where the change was observed and can’t necessarily provide a detailed summary of the specific affected areas.
-3.	The timelapse is a visual representation of the change in vegetation for a clipped region over a specified period of time. It needs parameters like start year, end year, end month, and the actual region that we want the program to present the change in the form of a GIF. Thus, this feature takes a certain magnitude of computation time based on these parameters. Possibilities are that the program might take incredibly high computation time for selected regions that are too huge or a time interval that is very lengthy.
-
-## 1.3	Functional and Non-Functional Requirements
-
+## 1.3 Functional and Non-Functional Requirements
 
 ### The Functional Requirements are as followed:
 
@@ -74,9 +67,7 @@ The web app provides 4 pages each designated for a specific task:
   <li>	User interface provided must be a responsive web interface that is displayed in an easy-to-interpret methodically laid out manner.</li>
  </ol>
 
-
-### The Non-Functional Requirements are as followed:		
-
+### The Non-Functional Requirements are as followed:
 
 <ol type="i">
 <li>	To build a secure API, such that only authorized applications/users can access it by setting appropriate CORS (Cross-Origin Resource Sharing) configuration. </li>
