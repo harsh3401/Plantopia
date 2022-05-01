@@ -7,7 +7,7 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-table-of-contents)
 
-## 📝 Table of Contents
+# 📝 Table of Contents
 
 - [About](#about)
 - [Getting Started ](#getting_started)
@@ -19,7 +19,7 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-about-a-name--abouta)
 
-## 🧐 About <a name = "about"></a>
+# 🧐 About <a name = "about"></a>
 
  **Vegetation cover** defines **the percentage of soil** which is **covered by trees and plants**. Vegetation cover plays **very important role** on **protecting the soil surface** from raindrop splashing, increasing soil organic matter, soil aggregate stability, water holding capacity, hydraulic conductivity, retarding and reducing surface water runoff, etc. In a wide range of environments, both water run-off and soil sediment loss decrease exponentially as the percentage of vegetation cover increases. (Elwell and Stocking, 1976; Lee and Skogerboe 1985, Francis and Thornes 1990). 
 
@@ -38,11 +38,11 @@ This project will help in **automated monitoring** the vegetation cover in a par
 </a>
 <br/>
 
-1.1	Problem Definition
+## 1.1	Problem Definition
 
 To develop a **GIS based application** that can **monitor and display** the **changes in the vegetation cover** **for a particular area** and provide the **timelapse showing the change in the area with respect to the change in the NDVI over a particular time period**. The application should be **easily accessible** and should clearly give an **insight on the change**.
 
-1.2	Scope of Project
+## 1.2	Scope of Project
 
 The project outcome is a web application that will provide a platform to visualize change, monitor NDVI area for a specific threshold and provide timelapse generation features. In addition to these primary features classification of land cover based on multiple methods specifically for the Mumbai and Thane districts will provide an analytical viewpoint for landcover computed via ML algorithms.
 
@@ -54,40 +54,42 @@ The web app provides 4 pages each designated for a specific task:
 3.	Timelapse Page: This page provides the user with the ability to generate vegetation change timelapses via manually selecting a region and a time period. This timelapse image will be added to the map and can be exported to get the final result as a GIF image that can easily be shared.
 4.	Change Detection Page: This page provides the user the ability to generate spectral change maps that will be visualized instantly post selecting the start and end year for change detection. The generated spectral map will be added to the map itself.
 
-Constraints:
+### Constraints:
 
 
 1.	The landcover classification has been computed by two different methods, one is by directly using the publicly available MODIS dataset and the other by manually, generating feature collections and using that as the training data for building the model. Due to the involvement of this manual effort, change detection can only be performed on selective regions for now.
 2.	Change detection is being done by geographically subtracting the two different samples of a region at two different time phases. This can only give a mere idea regarding the areas where the change was observed and can’t necessarily provide a detailed summary of the specific affected areas.
 3.	The timelapse is a visual representation of the change in vegetation for a clipped region over a specified period of time. It needs parameters like start year, end year, end month, and the actual region that we want the program to present the change in the form of a GIF. Thus, this feature takes a certain magnitude of computation time based on these parameters. Possibilities are that the program might take incredibly high computation time for selected regions that are too huge or a time interval that is very lengthy.
 
-1.3	Functional and Non-Functional Requirements
+## 1.3	Functional and Non-Functional Requirements
 
 
-The Functional Requirements are as followed:
+### The Functional Requirements are as followed:
+
+<ol type="i">
+  <li>	To provide a platform for monitoring of land vegetation cover and to present in a visually intuitive form.</li>
+  <li>	To implement the best method for the detection of changes in the vegetation cover in a particular area.</li>
+  <li>	The application should provide a Timelapse of the vegetation cover over the selected area in different periods of years with the ability to export and download the timelapse in a GIF format.</li>
+  <li>	To implement and compare multiple classification methodologies and to get the best outcomes from the same by computing the results from the classification and show the results with proper legends on the Map interface.</li>
+  <li>	User interface provided must be a responsive web interface that is displayed in an easy-to-interpret methodically laid out manner.</li>
+ </ol>
 
 
-i.	To provide a platform for monitoring of land vegetation cover and to present in a visually intuitive form.
-ii.	To implement the best method for the detection of changes in the vegetation cover in a particular area.
-iii.	The application should provide a Timelapse of the vegetation cover over the selected area in different periods of years with the ability to export and download the timelapse in a GIF format.
-iv.	To implement and compare multiple classification methodologies and to get the best outcomes from the same by computing the results from the classification and show the results with proper legends on the Map interface.
-v.	User interface provided must be a responsive web interface that is displayed in an easy-to-interpret methodically laid out manner.
+### The Non-Functional Requirements are as followed:		
 
 
-The Non-Functional Requirements are as followed:		
-
-
-i.	To build a secure API, such that only authorized applications/users can access it by setting appropriate CORS (Cross-Origin Resource Sharing) configuration. 
-ii.	To build an API having a fast response time (subject to complexity of model and text input) so the software will work for all use cases, provided the input is in plain text. 
-iii.	To design a user-friendly interface, such that the end users will be able to accurately analyze, comprehend and summarize the text provided. 
-iv.	To build a system that will be available 24/7 to the users with an internet connection.
-v.	The software should be deployable on any server and should be accessible from any browser.
-vi.	The output should be reliable with good accuracy scores. 
-
+<ol type="i">
+<li>	To build a secure API, such that only authorized applications/users can access it by setting appropriate CORS (Cross-Origin Resource Sharing) configuration. </li>
+<li>	To build an API having a fast response time (subject to complexity of model and text input) so the software will work for all use cases, provided the input is in plain text. </li>
+<li>	To design a user-friendly interface, such that the end users will be able to accurately analyze, comprehend and summarize the text provided. </li>
+<li>	To build a system that will be available 24/7 to the users with an internet connection.</li>
+<li>	The software should be deployable on any server and should be accessible from any browser.</li>
+<li>	The output should be reliable with good accuracy scores. </li>
+</ol>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-getting-started-a-name--getting_starteda)
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+# 🏁 Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -113,7 +115,7 @@ A step by step series of examples that tell you how to get a development env run
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-built-using-a-name--built_usinga)
 
-## :hammer_and_wrench: Built Using <a name = "built_using"></a>
+# :hammer_and_wrench: Built Using <a name = "built_using"></a>
 
 - [React](https://reactjs.org/) - Web Framework
 - [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
@@ -122,7 +124,7 @@ A step by step series of examples that tell you how to get a development env run
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
 
-## 📦 Packages Used <a name = "packages"></a>
+# 📦 Packages Used <a name = "packages"></a>
 
 <div align="center">
  
@@ -154,7 +156,7 @@ A step by step series of examples that tell you how to get a development env run
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
 
-## :pencil2: Authors <a name="authors"></a>
+# :pencil2: Authors <a name="authors"></a>
 
 - [Anurag Ghosh](https://www.linkedin.com/in/anurag-g-a01531198)
 - [Harsh Jain]()
@@ -163,7 +165,7 @@ A step by step series of examples that tell you how to get a development env run
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-built-using-a-name--built_usinga)
 
-## :brain: Contribution over Time <a name="contribution"></a>
+# :brain: Contribution over Time <a name="contribution"></a>
 
 <div align="center">
  <a href="https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=harsh3401/mini_project">
@@ -177,7 +179,7 @@ A step by step series of examples that tell you how to get a development env run
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
 
-## :weight_lifting: Performance of Web App <a name = "performance"></a>
+# :weight_lifting: Performance of Web App <a name = "performance"></a>
 
 <div align="center">
 <br/>
