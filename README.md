@@ -12,7 +12,7 @@
 - [About](#about)
 - [Getting Started ](#getting_started)
 - [Built Using](#built_using)
-- [Packages](#packages)
+- [Libraries and Packages Used](#packages)
 - [Authors](#authors)
 - [Contribution](#contribution)
 - [Performance of Web App](#performance)
@@ -125,14 +125,22 @@ A step by step series of examples that tell you how to get a development env run
 
 - Clone this repository
 - Open command line in the cloned folder,
-
-  - To install dependencies, run `npm install`
-
+  
+  - To create a virtual environment, run `virtualenv venv` and activate it by running `./Scripts/activate `.
+  
+  - To install the requirements, First navigate to the virtual environment folder by using `cd venv`, then install the requirements by running `pip install -r requirements.txt`.
+  
+  - Then go to the `.env` file and change the authentication id.
+  
+  - Then run the voila server by using `voila --Voila.tornado_settings="{'headers':{'Content-Security-Policy':\"frame-ancestors 'self' http://127.0.0.1:5000\"}}"` command.
+  
+  - Then navigate to the root folder by using `cd ..` command.
+  
   - To run the application for development,
 
-    - then run `npm start` in the client folder to start the app
+    - then run `python run.py` to start the web app.
 
-- Open [localhost:3000](localhost:3000) in the browser
+- Open [localhost:5000](localhost:5000) in the browser to view the web app.
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-built-using-a-name--built_usinga)
 
@@ -149,44 +157,168 @@ A step by step series of examples that tell you how to get a development env run
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
 
-# 📦 Packages and Libraries Used <a name = "packages"></a>
+# 📦 Libraries and Packages Used <a name = "packages"></a>
 
 <div align="center">
  
-| Packages  | Versions |
+| Libraries/Packages | Versions |
 | ------------- |:-------------:|
-| @craco/craco      | 6.4.0 |
-| @headlessui/react     | 1.4.1 |
-| @heroicons/react      | 1.0.5    |
-|@hookform/resolvers|2.8.3|
-|autoprefixer| 9.8.8|
-|axios|0.23.0|
-|bootstrap|5.1.3|
-|cra-template|1.1.2|
-|gh-pages|3.2.3|
-|postcss|7.0.39|
-|react|17.0.2|
-|react-bootstrap|2.0.0|
-|react-dom|17.0.2|
-|react-fullscreen-image|0.0.3|
-|react-hook-form|7.19.3|
-|react-icons|4.3.1|
-|react-router-dom|5.3.0|
-|react-scripts|4.0.3|
-|npm:@tailwindcss/postcss7-compat|2.2.17|
-|svg-to-jsx|1.0.4|
-|yup|0.32.11|
- 
+| anyio | 3.5.0| 
+| argon2-cffi | 21.3.0| 
+| argon2-cffi-bindings | 21.2.0| 
+| asttokens | 2.0.5| 
+| attrs | 21.4.0| 
+| Babel | 2.10.1| 
+| backcall | 0.2.0| 
+| beautifulsoup4 | 4.11.1| 
+| bleach | 5.0.0| 
+| blessings | 1.7| 
+| bqplot | 0.12.33| 
+| branca | 0.5.0| 
+| cachetools | 5.0.0| 
+| certifi | 2021.10.8| 
+| cffi | 1.15.0| 
+| charset-normalizer | 2.0.12| 
+| click | 8.1.2| 
+| colorama | 0.4.4| 
+| colour | 0.1.5| 
+| cycler | 0.11.0| 
+| debugpy | 1.6.0| 
+| decorator | 5.1.1| 
+| defusedxml | 0.7.1| 
+| earthengine-api | 0.1.306| 
+| ee | 0.2| 
+| ee-extra | 0.0.13| 
+| entrypoints | 0.4| 
+| executing | 0.8.3| 
+| fastjsonschema | 2.15.3| 
+| ffmpeg-python | 0.2.0| 
+| filelock | 3.6.0| 
+| Flask | 2.1.1| 
+| folium | 0.12.1.post1| 
+| fonttools | 4.33.2| 
+| future | 0.18.2| 
+| gdown | 4.4.0| 
+| geeadd | 0.5.5| 
+| geemap | 0.13.2| 
+| geocoder | 1.38.1| 
+| geojson | 2.5.0| 
+| google-api-core | 2.7.2| 
+| google-api-python-client | 1.12.11| 
+| google-auth | 2.6.6| 
+| google-auth-httplib2 | 0.1.0| 
+| google-cloud-core | 2.3.0| 
+| google-cloud-storage | 2.3.0| 
+| google-crc32c | 1.3.0| 
+| google-resumable-media | 2.3.2| 
+| googleapis-common-protos | 1.56.0| 
+| httplib2 | 0.20.4| 
+| httplib2shim | 0.0.3| 
+| idna | 3.3| 
+| importlib-metadata | 4.11.3| 
+| importlib-resources | 5.7.1| 
+| ipyevents | 2.0.1| 
+| ipyfilechooser | 0.6.0| 
+| ipykernel | 6.13.0| 
+| ipyleaflet | 0.16.0| 
+| ipython | 7.23.1| 
+| ipython-genutils | 0.2.0| 
+| ipytree | 0.2.1| 
+| ipywidgets | 7.7.0| 
+| itsdangerous | 2.1.2| 
+| jedi | 0.18.1| 
+| Jinja2 | 3.1.1| 
+| json5 | 0.9.6| 
+| jsonschema | 4.4.0| 
+| jupyter-client | 7.2.2| 
+| jupyter-core | 4.10.0| 
+| jupyter-server | 1.16.0| 
+| jupyterlab | 3.3.4| 
+| jupyterlab-pygments | 0.2.2| 
+| jupyterlab-server | 2.13.0| 
+| jupyterlab-widgets | 1.1.0| 
+| kiwisolver | 1.4.2| 
+| logzero | 1.7.0| 
+| MarkupSafe | 2.1.1| 
+| matplotlib | 3.5.1| 
+| matplotlib-inline | 0.1.3| 
+| mistune | 0.8.4| 
+| nbclassic | 0.3.7| 
+| nbclient | 0.5.13| 
+| nbconvert | 6.5.0| 
+| nbformat | 5.3.0| 
+| nest-asyncio | 1.5.5| 
+| notebook | 6.4.11| 
+| notebook-shim | 0.1.0| 
+| packaging | 21.3| 
+| pandocfilters | 1.5.0| 
+| parso | 0.8.3| 
+| pickleshare | 0.7.5| 
+| Pillow | 9.1.0| 
+| plotly | 5.7.0| 
+| prometheus-client | 0.14.1| 
+| prompt-toolkit | 3.0.29| 
+| protobuf | 3.20.1| 
+| psutil | 5.9.0| 
+| pure-eval | 0.2.2| 
+| pyasn1 | 0.4.8| 
+| pyasn1-modules | 0.2.8| 
+| pycparser | 2.21| 
+| PyCRS | 1.0.2| 
+| Pygments | 2.11.2| 
+| pyparsing | 3.0.8| 
+| pyrsistent | 0.18.1| 
+| pyshp | 2.2.0| 
+| PySocks | 1.7.1| 
+| python-box | 6.0.2| 
+| python-dateutil | 2.8.2| 
+| pytz | 2022.1| 
+| pyzmq | 22.3.0| 
+| ratelim | 0.1.6| 
+| requests | 2.27.1| 
+| rsa | 4.8| 
+| sankee | 0.0.7| 
+| Send2Trash | 1.8.0| 
+| six | 1.16.0| 
+| sniffio | 1.2.0| 
+| soupsieve | 2.3.2.post1| 
+| stack-data | 0.2.0| 
+| tenacity | 8.0.1| 
+| terminado | 0.13.3| 
+| tinycss2 | 1.1.1| 
+| tornado | 6.1| 
+| tqdm | 4.64.0| 
+| traitlets | 5.1.1| 
+| traittypes | 0.2.1| 
+| uritemplate | 3.0.1| 
+| urllib3 | 1.26.9| 
+| voila | 0.3.5| 
+| wcwidth | 0.2.5| 
+| webencodings | 0.5.1| 
+| websocket-client | 1.3.2| 
+| websockets | 10.3| 
+| Werkzeug | 2.1.1| 
+| whitebox | 2.1.2| 
+| whiteboxgui | 0.7.0| 
+| widgetsnbextension | 3.6.0| 
+| xyzservices | 2022.4.0| 
+| zipp | 3.8.0| 
+
 </div>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
 
 # :pencil2: Authors <a name="authors"></a>
 
-- [Anurag Ghosh](https://www.linkedin.com/in/anurag-g-a01531198)
-- [Harsh Jain]()
-- [Samved Joshi]()
-- [Ishan Kulkarni](https://www.linkedin.com/in/kulkarniishan)
+[![](https://img.shields.io/badge/LinkedIn-_Anurag_Ghosh-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anurag-g-a01531198)
+
+[![](https://img.shields.io/badge/LinkedIn-_Harsh_Jain-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/)
+
+[![](https://img.shields.io/badge/LinkedIn-_Samved_Joshi-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/)
+
+[![](https://img.shields.io/badge/LinkedIn-_Ishan_Kulkarni-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kulkarniishan)
+
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-built-using-a-name--built_usinga)
 
@@ -198,7 +330,7 @@ A step by step series of examples that tell you how to get a development env run
  </a>
  <br/>
  <br/>
- <h5>Contributors</h5>
+ <h2>Contributors</h2>
  <br/>
  <a href = "https://contrib.rocks/image?repo=harsh3401/mini_project">
   <img src = "https://contrib.rocks/image?repo=harsh3401/mini_project"/>
