@@ -125,17 +125,17 @@ A step by step series of examples that tell you how to get a development env run
 
 - Clone this repository
 - Open command line in the cloned folder,
-  
+
   - To create a virtual environment, run `virtualenv venv` and activate it by running `./Scripts/activate `.
-  
+
   - To install the requirements, First navigate to the virtual environment folder by using `cd venv`, then install the requirements by running `pip install -r requirements.txt`.
-  
+
   - Then go to the `.env` file and change the authentication id.
-  
+
   - Then run the voila server by using `voila --Voila.tornado_settings="{'headers':{'Content-Security-Policy':\"frame-ancestors 'self' http://127.0.0.1:5000\"}}"` command.
-  
+
   - Then navigate to the root folder by using `cd ..` command.
-  
+
   - To run the application for development,
 
     - then run `python run.py` to start the web app.
@@ -302,7 +302,7 @@ A step by step series of examples that tell you how to get a development env run
 | whiteboxgui | 0.7.0| 
 | widgetsnbextension | 3.6.0| 
 | xyzservices | 2022.4.0| 
-| zipp | 3.8.0| 
+| zipp | 3.8.0|
 
 </div>
 
@@ -317,8 +317,6 @@ A step by step series of examples that tell you how to get a development env run
 [![](https://img.shields.io/badge/LinkedIn-_Samved_Joshi-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/)
 
 [![](https://img.shields.io/badge/LinkedIn-_Ishan_Kulkarni-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kulkarniishan)
-
-
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-built-using-a-name--built_usinga)
 
