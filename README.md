@@ -40,7 +40,7 @@ To develop a **GIS based application** that can **monitor and display** the **ch
 
 ## 1.2 Scope of Project
 
-The project outcome is a **web application** that will provide a **platform to visualize change, monitor NDVI area for a specific threshold and provide timelapse generation features**. In addition to these primary features classification of land cover based on multiple methods specifically for the **Mumbai** and **Thane** districts will provide an analytical viewpoint for landcover computed via ML algorithms.
+The project outcome is a **web application** that will provide a **platform to visualize change, monitor NDVI area for a specific threshold and provide timelapse generation features**. In addition to these primary features it should also provide classification of land cover based on multiple methods specifically for the **Mumbai** and **Thane** districts will provide an analytical viewpoint for landcover computed via ML algorithms.
 
 The web app provides 4 pages each designated for a specific task:
 
