@@ -15,8 +15,7 @@
 - [Libraries and Packages Used](#packages)
 - [Authors](#authors)
 - [Contribution](#contribution)
-- [Performance of Web App](#performance)
-
+ 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-about-a-name--abouta)
 
 # 🧐 About <a name = "about"></a>
@@ -30,9 +29,7 @@ Vegetation cover is **key factor on land degradation**. Reduction in the perenni
 This project will help in **automated monitoring** the vegetation cover in a particular area by using **GIS techniques**, thus giving insights for **future planning of land resources**. This project discusses the **importance of land vegetation cover** and **its impact on the environment**, it also discusses **the real-time monitoring of the vegetation cover** and its implementation and provides components **to generate timelapse GIFs** and **classify land cover for better assessment** of the land cover. We have also implemented change detection features to get an idea of the vegetation change over the years for further analysis.
 
 <br/>
-<a href="#">Click here to view the website</a>
-</a>
-<br/>
+
 
 ## 1.1 Problem Definition
 
@@ -337,22 +334,3 @@ A step by step series of examples that tell you how to get a development env run
 <br/>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#-authors-a-name--authorsa)
-
-# :weight_lifting: Performance of Web App <a name = "performance"></a>
-
-<div align="center">
-<br/>
-<ul>
-    <li>
-        <h3> Performance of the Web App on Desktop </h3>
-        </br>
-        <img src="./speedtestDesktop.svg" alt="performance in desktop" width="auto"/>
-    </li>
-    <br/>
-    <li>
-        <h3> Performance of the Web App on Mobile Device </h3>
-        <br/>
-        <img src="./speedtestMobile.svg" alt="performance in mobile Device" width="auto"/>
-    </li>
-</ul>
-</div>
