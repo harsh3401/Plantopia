@@ -1,6 +1,8 @@
 {% extends "base.html" %} {% set active_page = "home" %} {% block content %}
 <div class="grid grid-flow-row gap-2 w-full px-4 py-4">
-  <div class="col-span-12 rounded-xl shadow-xl grid grid-flow-row shadow-inner h-fit py-4">
+  <div
+    class="col-span-12 rounded-xl shadow-xl grid grid-flow-row shadow-inner h-fit py-4"
+  >
     <div class="text-center col-span-12 grid grid-flow-row">
       <div class="col-span-12">
         <h1 class="p-3 text-4xl font-black text-emerald-600">
@@ -10,171 +12,257 @@
       <div class="col-span-12 text-center">
         <p class="font-medium text-emerald-700 pb-3">
           <br />
-          <img style="
+          <img
+            style="
               display: block;
               margin-left: auto;
               margin-right: auto;
               width: 50%;
-            " src="{{ url_for('static',filename='images/timelapse.gif')}}" alt="Time lapse image" />
+            "
+            src="{{ url_for('static',filename='images/timelapse.gif')}}"
+            alt="Time lapse image"
+          />
           <br />
-        <p class="my-1">
-          Plantopia is a project build to estimate, monitor and analyze change in
-          vegetation cover using GIS techniques. Vegetation cover defines the
-          percentage of soil which is covered by green vegetation. In a wide range
-          of environments, vegetation cover greatly affects both surface water
-          runoff and sediment loss. A vegetation cover of 45-50% is considered a
-          critical value since above this value soils are adequately protected
-          from raindrop impact and soil erosion is significantly reduced. This
-          project aims at the monitoring of the changing land cover and thus
-          creating awareness regarding it.
         </p>
-        <p class="font-medium text-emerald-700 pb-3 text-4xl mt-6">The feature of each page is as followed:</p>
+
+        <p class="my-1">
+          Plantopia is a project build to estimate, monitor and analyze change
+          in vegetation cover using GIS techniques. Vegetation cover defines the
+          percentage of soil which is covered by green vegetation. In a wide
+          range of environments, vegetation cover greatly affects both surface
+          water runoff and sediment loss. A vegetation cover of 45-50% is
+          considered a critical value since above this value soils are
+          adequately protected from raindrop impact and soil erosion is
+          significantly reduced. This project aims at the monitoring of the
+          changing land cover and thus creating awareness regarding it.
+        </p>
+        <p class="font-medium text-emerald-700 pb-3 text-4xl mt-6">
+          The features of each page are as followed:
+        </p>
       </div>
       <div class="col-span-12">
-
         <div class="grid grid-cols-12">
           <div class="col-start-3 col-span-8 gap-4 rounded-xl bg-emerald-300">
             <div class="col-span-12">
-              <div id="accordion-flush" data-accordion="collapse"
+              <div
+                id="accordion-flush"
+                data-accordion="collapse"
                 data-active-classes="bg-emerald-500 rounded-xl dark:bg-gray-900 text-white dark:text-white"
-                data-inactive-classes="text-gray-700 dark:text-gray-400">
+                data-inactive-classes="text-gray-700 dark:text-gray-400"
+              >
                 <h2 id="accordion-flush-heading-1">
-                  <button type="button"
+                  <button
+                    type="button"
                     class="p-4 flex justify-between items-center py-5 w-full font-medium text-left text-gray-700 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
-                    data-accordion-target="#accordion-flush-body-1" aria-expanded="true"
-                    aria-controls="accordion-flush-body-1">
+                    data-accordion-target="#accordion-flush-body-1"
+                    aria-expanded="true"
+                    aria-controls="accordion-flush-body-1"
+                  >
                     <span>Classification Page</span>
-                    <svg data-accordion-icon class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd"
+                    <svg
+                      data-accordion-icon
+                      class="w-6 h-6 rotate-180 shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
                         d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"></path>
+                        clip-rule="evenodd"
+                      ></path>
                     </svg>
                   </button>
                 </h2>
-                <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
-                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                <div
+                  id="accordion-flush-body-1"
+                  class="hidden"
+                  aria-labelledby="accordion-flush-heading-1"
+                >
+                  <div
+                    class="py-5 border-b border-gray-200 dark:border-gray-700"
+                  >
                     <p class="mb-2 text-gray-700 px-2 dark:text-gray-400">
-                      This page provides the user options to classify land cover based on multiple
-                      methods. The first method includes using the MODIS dataset to divide the landcover into multiple
-                      classes and rendering the results in a interactable map. The second method is a more complex one
-                      where a manually selected dataset was created to get an idea of the various classes and an ML
-                      based classification algorithm was used.
+                      This page provides the user options to classify land cover
+                      based on multiple methods. The first method includes using
+                      the MODIS dataset to divide the landcover into multiple
+                      classes and rendering the results in a interactable map.
+                      The second method is a more complex one where a manually
+                      selected dataset was created to get an idea of the various
+                      classes and an ML based classification algorithm was used.
                     </p>
                   </div>
                 </div>
                 <h2 id="accordion-flush-heading-2">
-                  <button type="button"
+                  <button
+                    type="button"
                     class="p-4 flex justify-between items-center py-5 w-full font-medium text-left text-gray-700 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
-                    data-accordion-target="#accordion-flush-body-2" aria-expanded="false"
-                    aria-controls="accordion-flush-body-2">
+                    data-accordion-target="#accordion-flush-body-2"
+                    aria-expanded="false"
+                    aria-controls="accordion-flush-body-2"
+                  >
                     <span>Change Detection Page</span>
-                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd"
+                    <svg
+                      data-accordion-icon
+                      class="w-6 h-6 shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
                         d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"></path>
+                        clip-rule="evenodd"
+                      ></path>
                     </svg>
                   </button>
                 </h2>
-                <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
-                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                <div
+                  id="accordion-flush-body-2"
+                  class="hidden"
+                  aria-labelledby="accordion-flush-heading-2"
+                >
+                  <div
+                    class="py-5 border-b border-gray-200 dark:border-gray-700"
+                  >
                     <p class="mb-2 text-gray-700 px-2 dark:text-gray-400">
-                      This page provides the user the ability to generate spectral change maps that will
-                      be
-                      visualized instantly post selecting the start and end year for change detection. The generated
-                      spectral
-                      map
-                      will be added to the map itself.
+                      This page provides the user the ability to generate
+                      spectral change maps that will be visualized instantly
+                      post selecting the start and end year for change
+                      detection. The generated spectral map will be added to the
+                      map itself.
                     </p>
                   </div>
                 </div>
                 <h2 id="accordion-flush-heading-3">
-                  <button type="button"
+                  <button
+                    type="button"
                     class="p-4 flex justify-between items-center py-5 w-full font-medium text-left text-gray-700 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
-                    data-accordion-target="#accordion-flush-body-3" aria-expanded="false"
-                    aria-controls="accordion-flush-body-3">
+                    data-accordion-target="#accordion-flush-body-3"
+                    aria-expanded="false"
+                    aria-controls="accordion-flush-body-3"
+                  >
                     <span>Timelapse Page</span>
-                    <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
-                      xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd"
+                    <svg
+                      data-accordion-icon
+                      class="w-6 h-6 shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
                         d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"></path>
+                        clip-rule="evenodd"
+                      ></path>
                     </svg>
                   </button>
                 </h2>
-                <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
-                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                <div
+                  id="accordion-flush-body-3"
+                  class="hidden"
+                  aria-labelledby="accordion-flush-heading-3"
+                >
+                  <div
+                    class="py-5 border-b border-gray-200 dark:border-gray-700"
+                  >
                     <p class="mb-2 text-gray-700 px-2 dark:text-gray-400">
-                      This page provides the user with the ability to generate vegetation change
-                      timelapses via
-                      manually selecting a region and a time period. This timelapse image will be added to the map and
-                      can be
-                      exported to get the final result as a GIF image that can easily be shared.
+                      This page provides the user with the ability to generate
+                      vegetation change timelapses via manually selecting a
+                      region and a time period. This timelapse image will be
+                      added to the map and can be exported to get the final
+                      result as a GIF image that can easily be shared.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="col-span-12 items-center justify-center grid grid-flow-row">
-    <h1 class="text-center text-3xl text-emerald-600 p-2 col-span-12">Refered Datasets</h1>
+    <h1 class="text-center text-3xl text-emerald-600 p-2 col-span-12">
+      Refered Datasets
+    </h1>
     <div class="container">
-      <table class="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5">
+      <table
+        class="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5"
+      >
         <thead class="text-white">
-          <tr class="bg-emerald-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+          <tr
+            class="bg-emerald-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0"
+          >
             <th class="p-3 text-left">Serial Number</th>
             <th class="p-3 text-left">Dataset Description</th>
             <th class="p-3 text-left">Dataset Name</th>
           </tr>
-          <tr class="bg-emerald-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+          <tr
+            class="bg-emerald-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0"
+          >
             <th class="p-3 text-left">Serial Number</th>
             <th class="p-3 text-left">Dataset Description</th>
             <th class="p-3 text-left">Dataset Name</th>
           </tr>
-          <tr class="bg-emerald-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0">
+          <tr
+            class="bg-emerald-400 flex flex-col flex-no wrap sm:table-row rounded-l-lg sm:rounded-none mb-2 sm:mb-0"
+          >
             <th class="p-3 text-left">Serial Number</th>
             <th class="p-3 text-left">Dataset Description</th>
             <th class="p-3 text-left">Dataset Name</th>
           </tr>
         </thead>
         <tbody class="flex-1 sm:flex-none">
-          <tr class="flex flex-col flex-no wrap sm:table-row mb-2 hover:bg-emerald-100 sm:mb-0">
+          <tr
+            class="flex flex-col flex-no wrap sm:table-row mb-2 hover:bg-emerald-100 sm:mb-0"
+          >
             <td class="border-grey-light border p-3">1</td>
             <td class="border-grey-light border p-3 truncate">
               Dataset containing atmospherically corrected surface reflectance
               and images with 7 bands.
             </td>
-            <td class="border-grey-light border p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">
-              <a href="https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2">USGS Landsat
-                8 Level 2, Collection 2, Tier 1</a>
+            <td
+              class="border-grey-light border p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer"
+            >
+              <a
+                href="https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2"
+                >USGS Landsat 8 Level 2, Collection 2, Tier 1</a
+              >
             </td>
           </tr>
-          <tr class="flex flex-col flex-no wrap sm:table-row mb-2 hover:bg-emerald-100 sm:mb-0">
+          <tr
+            class="flex flex-col flex-no wrap sm:table-row mb-2 hover:bg-emerald-100 sm:mb-0"
+          >
             <td class="border-grey-light border p-3">2</td>
             <td class="border-grey-light border p-3 truncate">
               Dataset containing global land cover types at yearly intervals
               (2001-2016) .
             </td>
-            <td class="border-grey-light border p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">
-              <a href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MCD12Q1">MCD12Q1.006 MODIS
-                Land Cover Type Yearly Global 500m</a>
+            <td
+              class="border-grey-light border p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer"
+            >
+              <a
+                href="https://developers.google.com/earth-engine/datasets/catalog/MODIS_006_MCD12Q1"
+                >MCD12Q1.006 MODIS Land Cover Type Yearly Global 500m</a
+              >
             </td>
           </tr>
-          <tr class="flex flex-col flex-no wrap sm:table-row mb-2 hover:bg-emerald-100 sm:mb-0">
+          <tr
+            class="flex flex-col flex-no wrap sm:table-row mb-2 hover:bg-emerald-100 sm:mb-0"
+          >
             <td class="border-grey-light border p-3">3</td>
             <td class="border-grey-light border p-3 truncate">
               Dataset containing atmospherically corrected surface reflectance
               and images with 6 bands.
             </td>
-            <td class="border-grey-light border p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer">
-              <a href="https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_L2">USGS Landsat
-                5 Level 2, Collection 2, Tier 1</a>
+            <td
+              class="border-grey-light border p-3 text-red-400 hover:text-red-600 hover:font-medium cursor-pointer"
+            >
+              <a
+                href="https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LT05_C02_T1_L2"
+                >USGS Landsat 5 Level 2, Collection 2, Tier 1</a
+              >
             </td>
           </tr>
         </tbody>
