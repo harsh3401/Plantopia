@@ -309,7 +309,7 @@ A step by step series of examples that tell you how to get a development env run
 
 [![](https://img.shields.io/badge/LinkedIn-_Anurag_Ghosh-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anurag-g-a01531198)
 
-[![](https://img.shields.io/badge/LinkedIn-_Harsh_Jain-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/)
+[![](https://img.shields.io/badge/LinkedIn-_Harsh_Jain-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/harsh-jain-7a17661b4/)
 
 [![](https://img.shields.io/badge/LinkedIn-_Samved_Joshi-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/)
 
