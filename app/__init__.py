@@ -1,11 +1,11 @@
 from email.mime import base
 from flask import Flask, render_template
+
 import os
 app = Flask(__name__)
-from dotenv import load_dotenv
-load_dotenv()
-base_url = os.getenv('BASE_URL')
-print(base_url)
+
+base_url = "http://localhost:8000/voila/render"
+print("base url",base_url)
 
 @app.route('/change-detection')
 def change_detection():
