@@ -3,5 +3,6 @@ COPY . .
 RUN pip install -r requirements.txt
 COPY runner.sh /scripts/runner.sh
 RUN ["chmod", "+x", "/scripts/runner.sh"]
+RUN ["echo", "$config",">","/notebooks/.platopia-igs-9418924bc717.json"]
 ENTRYPOINT ["/scripts/runner.sh"]
 EXPOSE 3000
